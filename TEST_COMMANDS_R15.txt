@@ -1,0 +1,271 @@
+﻿MIDWAY R15 — ВСЕ НОВЫЕ КОМАНДЫ ДЛЯ ТЕСТА
+SCUM 1.3.4.2.161892 / Steam build 25804202.
+87 предметов + 6 транспортных классов + 6 записей монстров/NPC = 99 типизированных команд.
+
+Команды выполнять администратором в чате игры, по одной строке. Вход в SCUM для составления списка не выполнялся.
+В командных строках сохранены точные первичные имена из R15, включая все начальные z. Короткое название рядом — подпись для человека.
+Короткие MW_-псевдонимы не выдаются за подтверждённые команды: ранее MW_PyramidHead получал отказ «not allowed to be spawned».
+Часть записей содержит HiddenFromAdminCommands. Такие строки ниже отмечены; фактический допуск проверить и записать ответ сервера.
+Список не означает, что все игровые сценарии уже исправлены или проверены. R15 и согласованная серверная сборка должны быть установлены.
+Count означает количество создаваемых предметов/стопок; магазины после выдачи зарядить и установить вручную.
+
+ОБЯЗАТЕЛЬНЫЕ СВЯЗКИ
+Vector SD + специальный VectorMagazine40 + Cal_9mm.
+Ручной Minigun + MinigunBox500 + Cal_7_62x39mm.
+Binary Rifle + одна RailBattery либо BinaryCharge.
+Rail Turret + RailCharge + проверка питания.
+Scout Drone + Scout Deck + Smartphone_Battery либо Batteries.
+Target Locator + одна LocatorBattery нужного варианта.
+Бортовой MH6 Minigun + MH6 + Cal_7_62x39mm; ручной короб на 500 ему не требуется.
+
+ВСЕ УНИКАЛЬНЫЕ НОВЫЕ КОМАНДЫ
+
+[КОМПЛЕКТ Vector]
+Vector SD
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_VectorSD 1
+Магазин Vector на 40
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_VectorMagazine40 1
+
+[КОМПЛЕКТ Minigun]
+Короб Minigun на 500
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_MinigunBox500 1
+Ручной Minigun
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_Minigun 1
+
+[КОМПЛЕКТ энергетической винтовки]
+Binary Rifle / энергетическая винтовка
+#SpawnItem zzzzzzzzzzzzMIDWAY_BinaryRifle 1
+Служебный внутренний боеприпас винтовки [СЛУЖЕБНЫЙ: обычному комплекту вручную не нужен]
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailEnergy_Internal 1
+Энергетическая ячейка BinaryCharge
+#SpawnItem zzzzzzzzzzzzMIDWAY_BinaryCharge 1
+Энергетическая ячейка RailBattery
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailBattery 1
+
+[КОМПЛЕКТ Rail Turret]
+Rail Turret
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailTurret 1
+Боеприпас RailCharge для турели
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailCharge 1
+
+[КОМПЛЕКТ Scout]
+Пульт Scout Deck
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ScoutDeck 1
+Управляемый Scout Drone
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ScoutDrone 1
+
+[КОМПЛЕКТ целеуказателя]
+Target Locator / целеуказатель
+#SpawnItem zzzzzzMIDWAY_TargetLocator 1
+Батарея целеуказателя — базовая
+#SpawnItem zzzzzzMIDWAY_LocatorBattery 1
+Батарея целеуказателя — вариант 20
+#SpawnItem zzzzzzMIDWAY_LocatorBattery20 1
+Батарея целеуказателя — вариант 30
+#SpawnItem zzzzzzMIDWAY_LocatorBattery30 1
+Батарея целеуказателя — вариант 40
+#SpawnItem zzzzzzMIDWAY_LocatorBattery40 1
+Батарея целеуказателя — вариант 50
+#SpawnItem zzzzzzMIDWAY_LocatorBattery50 1
+Батарея целеуказателя — вариант 60
+#SpawnItem zzzzzzMIDWAY_LocatorBattery60 1
+
+[Костюмы, снаряжение и прочие предметы]
+Zone Grenade
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ZoneGrenade 1
+Костюм Ghost
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_Ghost 1
+Костюм Spartan MkV
+#SpawnItem zzzzzzzzzMIDWAY_Spartan_MkV 1
+Майнинг-ферма
+#SpawnItem zzzzzzzzzzzzzMIDWAY_MiningRig 1
+Тепловизионный прицел
+#SpawnItem zzzzzzzzMIDWAY_ThermalScope 1
+Экспедиционный рюкзак 01
+#SpawnItem zzzzzzzzMIDWAY_Expedition_Backpack_01 1
+Экспедиционный рюкзак 02
+#SpawnItem zzzzzzzzMIDWAY_Expedition_Backpack_02 1
+Экспедиционный рюкзак 03
+#SpawnItem zzzzzzzzMIDWAY_Expedition_Backpack_03 1
+
+[MH6 и оборудование]
+MH6 Little Bird
+#SpawnVehicle zzMIDWAY_BP_MH6_LittleBird 1
+Бортовой Minigun MH6
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_MH6_Minigun 1
+Грузовой контейнер MH6 [есть HiddenFromAdminCommands: 1 / absent; допуск проверить]
+#SpawnItem zzMIDWAY_BP_MH6_Cargo 1
+
+[КамАЗ и его детали]
+КамАЗ
+#SpawnVehicle zzMIDWAY_BPC_MIDWAY_Kamaz 1
+КамАЗ — Бампер задняя часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Bumper_Back_Item 1
+КамАЗ — Бампер передняя часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Bumper_Front_Item 1
+КамАЗ — Дверь багажника [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_DoorTrunk_Item 1
+КамАЗ — Дверь багажника лёгкая броня [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_DoorTrunk_ArmorLight_Item 1
+КамАЗ — Дверь багажника тяжёлая броня [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_DoorTrunk_ArmorHeavy_Item 1
+КамАЗ — Дверь задний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_BackLeft_Item 1
+КамАЗ — Дверь задний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_BackRight_Item 1
+КамАЗ — Дверь лёгкая броня задний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_BackLeft_Item 1
+КамАЗ — Дверь лёгкая броня задний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_BackRight_Item 1
+КамАЗ — Дверь лёгкая броня передний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_FrontLeft_Item 1
+КамАЗ — Дверь лёгкая броня передний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_FrontRight_Item 1
+КамАЗ — Дверь передний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_FrontLeft_Item 1
+КамАЗ — Дверь передний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_FrontRight_Item 1
+КамАЗ — Дверь тяжёлая броня задний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_BackLeft_Item 1
+КамАЗ — Дверь тяжёлая броня задний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_BackRight_Item 1
+КамАЗ — Дверь тяжёлая броня передний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_FrontLeft_Item 1
+КамАЗ — Дверь тяжёлая броня передний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_FrontRight_Item 1
+КамАЗ — Двигатель Генератор [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Engine_Alternator_Item 1
+КамАЗ — Капот [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_DoorHood_Item 1
+КамАЗ — Колесо [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Wheel_Item 1
+КамАЗ — Колесо лёгкая броня передний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorLight_FrontLeft_Item 1
+КамАЗ — Колесо лёгкая броня передний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorLight_FrontRight_Item 1
+КамАЗ — Колесо тяжёлая броня передний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorHeavy_FrontLeft_Item 1
+КамАЗ — Колесо тяжёлая броня передний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorHeavy_FrontRight_Item 1
+КамАЗ — Контейнер [есть HiddenFromAdminCommands: 1 / absent; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Item_Container 1
+КамАЗ — Кузов верх [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_Top 1
+КамАЗ — Кузов левая часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_Left 1
+КамАЗ — Кузов лёгкая броня верх [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Top_Item 1
+КамАЗ — Кузов лёгкая броня задняя часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Back_Item 1
+КамАЗ — Кузов лёгкая броня левая часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Left_Item 1
+КамАЗ — Кузов лёгкая броня правая часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Right_Item 1
+КамАЗ — Кузов передняя часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_Front 1
+КамАЗ — Кузов правая часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_Right 1
+КамАЗ — Кузов тяжёлая броня верх [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Top_Item 1
+КамАЗ — Кузов тяжёлая броня задняя часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Back_Item 1
+КамАЗ — Кузов тяжёлая броня левая часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Left_Item 1
+КамАЗ — Кузов тяжёлая броня правая часть [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Right_Item 1
+КамАЗ — Сиденье передний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Seat_FrontLeft_Item 1
+КамАЗ — Сиденье передний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Seat_FrontRight_Item 1
+КамАЗ — Фара задний верхний [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Lights_RearTop 1
+КамАЗ — Фара задний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Lights_RearLeft 1
+КамАЗ — Фара задний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Lights_RearRight 1
+КамАЗ — Фара передний левый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Lights_FrontLeft 1
+КамАЗ — Фара передний правый [есть HiddenFromAdminCommands: True; допуск проверить]
+#SpawnItem zzMIDWAY_MWTruck_Lights_FrontRight 1
+
+[Spy Hypersport и его детали]
+Spy — BPC SpyHypersport
+#SpawnVehicle zzzzzMIDWAY_BPC_SpyHypersport 1
+Spy — Hellrider Череп
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Hellrider_Skull_Item 1
+Spy — Колесо 110 80 R19
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Wheel_110_80_R19_Item 1
+Spy — Колесо 90 90 R21
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Wheel_90_90_R21_Item 1
+Spy — Контейнер [есть HiddenFromAdminCommands: 1 / absent; допуск проверить]
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Item_Container 1
+Spy — Крыло
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Fender_Item 1
+Spy — Кузов
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Body_Item 1
+Spy — Кузов Hellrider
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Body_Hellrider_Item 1
+Spy — Самодельный Колесо
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Improvised_Wheel 1
+Spy — Стоп-сигнал
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Brakelight_Item 1
+Spy — Фара
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Headlight_Item 1
+Spy — передняя часть Колесо Накладка
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Front_Wheel_Cover_Item 1
+Spy — передняя часть Щиток
+#SpawnItem zzzzzMIDWAY_SpyHypersport_Front_Shield_Item 1
+
+[V22 Osprey и контейнер]
+V22 Osprey
+#SpawnVehicle zzMIDWAY_BPC_V22_Osprey 1
+V22 Osprey Item Container [есть HiddenFromAdminCommands: 1 / absent; допуск проверить]
+#SpawnItem zzMIDWAY_V22_Osprey_Item_Container 1
+
+[Яхта и контейнер]
+Яхта
+#SpawnVehicle zzMIDWAY_BPC_Yacht 1
+Yacht Item Container [есть HiddenFromAdminCommands: 1 / absent; допуск проверить]
+#SpawnItem zzMIDWAY_Yacht_Item_Container 1
+
+[МиГ-29]
+МиГ-29
+#SpawnVehicle zzzzzzMIDWAY_BPC_Mig29 1
+
+[Монстры и NPC]
+ArchVile
+#SpawnZombie zzzzzzMIDWAY_ArchVile 1
+ArchVile Spawn [есть HiddenFromAdminCommands: 1; допуск проверить]
+#SpawnZombie zzzzzzMIDWAY_ArchVile_Spawn 1
+BipedRobot5
+#SpawnArmedNPC zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_BipedRobot_Lvl_5 1
+DeepMonstrosity [альтернативный Bear-прокси Deep; не создавать одновременно с Zombie-вариантом]
+#SpawnAnimal zzzzzzMIDWAY_DeepMonstrosity 1
+DeepMonstrosity
+#SpawnZombie zzzzzzMIDWAY_DeepMonstrosity 1
+PyramidHead [есть HiddenFromAdminCommands: 1; допуск проверить]
+#SpawnZombie zzzzzzMIDWAY_PyramidHead 1
+
+ЗАПИСИ БЕЗ ОТДЕЛЬНОЙ НОВОЙ КОМАНДЫ
+Silver — замена штатного дрона. В проверенном текущем индексе нет SpawnDrone/SpawnSilver и нет нового первичного ID Silver для SpawnItem/SpawnZombie.
+Проверять появившийся штатным способом Silver: повреждение, падение, 10-секундный отсчёт, взрыв, сохранение трупа, разделку ножом и повторную попытку лута.
+Пульт команд уже входит в сборку. Отдельного первичного предмета MW_CommandMenu в реестре нет; выдуманная команда здесь не добавлена.
+VehicleAttachment, VehiclePreset, LWObjectSetup, Character, BaseBuilding, PlaceableCraftingRecipe и GameResourceType — служебные типы.
+Все 265 такие записи перечислены в SUPPORTING_OBJECTS_R15.csv; их нельзя автоматически подставлять под SpawnItem.
+
+ОБЩИЕ ПРОВЕРКИ
+Предмет: подобрать, взять в руки/надеть, положить, передать второму игроку, проверить вес/иконку/коллизии и сохранение после переподключения.
+Транспорт: посадка/выход, каждый доступный пассажирский слот, запуск/остановка/звук, багажник, движение, ремонт и совпадение позиции для пассажира.
+Детали КамАЗа и Spy: каждый предмет ставить на соответствующее место своей машины, снимать и возвращать; лёгкую и тяжёлую броню проверять отдельно.
+КамАЗ: проверить водительскую посадку и красный ремонт у торговца; исправление ремонта пока не подтверждено.
+Ghost: ходьба/бег по земле и камням с контролем состояния ног.
+Spartan: надеть сразу от первого лица, сменить камеру, снова надеть, снять и передать другому игроку; проверить защиту и видимые детали костюма.
+ThermalScope: совместимое крепление, прицеливание, изображение целей, снятие/повторная установка.
+Рюкзаки 01/02/03: вместимость, предметы внутри, надевание/снятие, передача и сохранение содержимого.
+ZoneGrenade: удержание, бросок, звук/эффект/урон и отображение для второго игрока.
+ArchVile: ждать в спящей позе, приблизиться тихо, затем создать звук; проверить пробуждение/преследование/смерть/лут.
+Deep/PyramidHead/Robot: поведение, урон, смерть, настоящий труп, поиск и разделка; пересчитать реальные предметы и повторить взаимодействие.
+Лут: цели для приёмки — Silver до 3, Deep до 10, ArchVile уровни 1–4 до 6, Robot до 5 с учётом оружия/магазина/патронов. Выполнение в SCUM ещё не подтверждено.
+Убить ещё одного подходящего противника тем же игроком до истечения 30 минут, затем проверить после интервала; серверный перезапуск сбрасывает текущий учёт в памяти.
+
+В отчёте теста указать: полную команду, версию R15, результат/точный отказ, состав комплекта, действия, повторяемость и наблюдение второго игрока.
