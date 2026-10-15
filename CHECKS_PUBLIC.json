@@ -1,92 +1,27 @@
 {
-  "date_utc": "2026-10-15T05:40:02.837904+00:00",
+  "release": "full-test-20261015-r73-q31-b25804202",
+  "when": "2026-10-15T13:31:11.278421+00:00",
   "unique_paks": 14,
-  "checks": [
-    {
-      "name": "MIDWAY_BuildAnywhere_Compat_Q22_305_P.pak",
-      "sha256": "0012d6f0c71c02b48d1d96b8bc46d756927e7f1980dbad12b8708aea9692223c",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_Client_FULL_B25804202_R19_225_P.pak",
-      "sha256": "d9a15db06ebf7ccbaebefbb21dbac00e24a4cf6026b494d33004e8a27ae819b2",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_MemoryModules_B25804202_R54_265_P.pak",
-      "sha256": "5515d857631394469e7c629e37c5505db06c4f222862625bd27dc868bb41d08a",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_Silver_FIX_B25804202_R44_261_P.pak",
-      "sha256": "6d08fb2f162d3666b8b7a134eb56e137f1ab53da00b55f395e82b7c7508d9d06",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_Tank_B25804202_R35_BASE_R70_TEST_289_P.pak",
-      "sha256": "9f5f22b9d6ab9e41f2b6536461e2bd711c0cf8b9275fed5fc33e1717e90130c1",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_Transport_Network_Q1_290_P.pak",
-      "sha256": "c720b9373460abcfb21fee2b2e4e4b0bde2352161e3b8756c74e355d3e49e8ab",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_Vehicles_FIX_B25804202_R43_251_P.pak",
-      "sha256": "e7f2ee2e2827c2a5c12f04041b97a45d21adc82d82cc4b3853e1437507845780",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_WeaponKit_D9_STAGE_PROBE_399_P.pak",
-      "sha256": "48837c675a7d5c3b096cb0dd5f05e725a8fca2d0951a3fb2f9c9b24a8f1859bb",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_ZoneGrenade_FIX_B25804202_R36_244_P.pak",
-      "sha256": "5b0e6fcc66738e3b76367b3911730926fee6080c4f54866b9e21c196e5a8bd75",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "R34_300_P.pak",
-      "sha256": "1f94f6a00f3c9ab7ef132ed2d2f2a8673d325e85d197bedb32f4973e96cf02aa",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "zzzzzzzzzzz_SCUM_StalkerArcherSpawn_B25804202_R3_303_P.pak",
-      "sha256": "3b8e4d2ecce28dd8c815a53aa050cfb9ade10b4a5adba143bd8c7cc86012b1e4",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "zzzzzzzzzzz_SCUM_WeaponManualKit_B25804202_R8_304_P.pak",
-      "sha256": "8b299a88cf0e5daa5a11d9f418421895f38b3efaaa6acce8fac2033c2554d3fa",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_Server_FULL_B25804202_R19_Q22_225_P.pak",
-      "sha256": "1f70303a65529382c710c5816cd0d29c9a2a96bb21d0aa76613afdbaab67cae2",
-      "pak_test": "PASS"
-    },
-    {
-      "name": "MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak",
-      "sha256": "76a84caa88a3589ab53ac12d85eae74d51f58cb407291460a5ff3224c80585e0",
-      "pak_test": "PASS"
-    }
-  ],
-  "client_active_count": 12,
-  "server_active_count": 12,
-  "identical_shared_paks": 11,
-  "unchanged_source_paks": true,
+  "client_active_count": 13,
+  "server_active_count": 13,
+  "identical_shared_paks": 12,
+  "pak_integrity_and_readback": true,
+  "source_hashes_verified": true,
   "commands": 156,
   "weaponkit_recipes": 51,
-  "command_validation": "Existing preserved primary IDs; 51 aliases checked in packaged config and existing UE alias proof; live command execution not performed",
+  "tank69identities_preserved": true,
+  "registry_winner": "WeaponManualKit304; tank292 below Skyline300 and WeaponKit304",
+  "building_overlap_recipes": 12,
+  "client_smoke": "singleplayer world/new tank spawn and normal exit; no drive/refill acceptance",
+  "server_startup": "all four candidates mounted, world up, no fatal/assertions/LogScript; one unchanged vehicle spawnpoint error",
   "native_gameplay_verified": false,
-  "server_startup": "R70 deployment record: TEST23694 world started; no new startup errors. No server restart during publication.",
+  "exact_three_rpg_hits_implemented": false,
   "known_open": [
-    "WeaponKit appearance and original-magazine firing",
-    "Silver R44 tracer shader and blast damage",
-    "Tank offroad native driving and multiplayer passengers",
-    "Ghost respawn and inventory",
-    "Skyline audio and nitro acceptance"
+    "Native hills/logs/braking",
+    "R73 network boarding/camera/refill/fire and part thresholds",
+    "RPG/crew damage calibration",
+    "Skyline and helicopter passenger acceptance",
+    "Ghost respawn",
+    "WeaponKit disappearance/original magazines"
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "release": "full-test-20261015-r70-q29-b25804202",
   "scum_build": "25804202",
   "version": "1.3.4.2.161892",
-  "purpose": "Full reproducible TEST23694 candidate, not completed gameplay acceptance",
+  "release": "full-test-20261015-r73-q31-b25804202",
+  "purpose": "Full TEST23694 R73/Q31/R74 candidate; startup verified, gameplay acceptance incomplete",
   "client": [
     {
       "name": "MIDWAY_BuildAnywhere_Compat_Q22_305_P.pak",
@@ -23,16 +23,16 @@
       "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_MemoryModules_B25804202_R54_265_P.pak"
     },
     {
-      "name": "MIDWAY_Silver_FIX_B25804202_R44_261_P.pak",
-      "bytes": 302027,
-      "sha256": "6d08fb2f162d3666b8b7a134eb56e137f1ab53da00b55f395e82b7c7508d9d06",
-      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Silver_FIX_B25804202_R44_261_P.pak"
+      "name": "MIDWAY_Silver_FIX_B25804202_R74_308_P.pak",
+      "bytes": 317024,
+      "sha256": "a737d463b77feb7ba85eacb9bcccc1f559269b15a711c80ab4214be2b5ff538e",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Silver_FIX_B25804202_R74_308_P.pak"
     },
     {
-      "name": "MIDWAY_Tank_B25804202_R35_BASE_R70_TEST_289_P.pak",
-      "bytes": 68659819,
-      "sha256": "9f5f22b9d6ab9e41f2b6536461e2bd711c0cf8b9275fed5fc33e1717e90130c1",
-      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Tank_B25804202_R35_BASE_R70_TEST_289_P.pak"
+      "name": "MIDWAY_Tank_B25804202_R35_BASE_R73_TEST_292_P.pak",
+      "bytes": 68955261,
+      "sha256": "24861cb2bead447b7e3f735a6d4b9771873f9e3b94614f2a5d0980d6864b8e24",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Tank_B25804202_R35_BASE_R73_TEST_292_P.pak"
     },
     {
       "name": "MIDWAY_Transport_Network_Q1_290_P.pak",
@@ -60,8 +60,8 @@
     },
     {
       "name": "R34_300_P.pak",
-      "bytes": 22820241,
-      "sha256": "1f94f6a00f3c9ab7ef132ed2d2f2a8673d325e85d197bedb32f4973e96cf02aa",
+      "bytes": 22822769,
+      "sha256": "c900e2f58659178176258a986bedaae7dba3192399f39b7b1fa166b938056915",
       "path": "SCUM/Content/Paks/~mods/R34/R34_300_P.pak"
     },
     {
@@ -75,6 +75,12 @@
       "bytes": 7990988,
       "sha256": "8b299a88cf0e5daa5a11d9f418421895f38b3efaaa6acce8fac2033c2554d3fa",
       "path": "SCUM/Content/Paks/~mods/WeaponManualKit/zzzzzzzzzzz_SCUM_WeaponManualKit_B25804202_R8_304_P.pak"
+    },
+    {
+      "name": "MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak",
+      "bytes": 17658,
+      "sha256": "76a84caa88a3589ab53ac12d85eae74d51f58cb407291460a5ff3224c80585e0",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak"
     }
   ],
   "server": [
@@ -97,16 +103,16 @@
       "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_MemoryModules_B25804202_R54_265_P.pak"
     },
     {
-      "name": "MIDWAY_Silver_FIX_B25804202_R44_261_P.pak",
-      "bytes": 302027,
-      "sha256": "6d08fb2f162d3666b8b7a134eb56e137f1ab53da00b55f395e82b7c7508d9d06",
-      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Silver_FIX_B25804202_R44_261_P.pak"
+      "name": "MIDWAY_Silver_FIX_B25804202_R74_308_P.pak",
+      "bytes": 317024,
+      "sha256": "a737d463b77feb7ba85eacb9bcccc1f559269b15a711c80ab4214be2b5ff538e",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Silver_FIX_B25804202_R74_308_P.pak"
     },
     {
-      "name": "MIDWAY_Tank_B25804202_R35_BASE_R70_TEST_289_P.pak",
-      "bytes": 68659819,
-      "sha256": "9f5f22b9d6ab9e41f2b6536461e2bd711c0cf8b9275fed5fc33e1717e90130c1",
-      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Tank_B25804202_R35_BASE_R70_TEST_289_P.pak"
+      "name": "MIDWAY_Tank_B25804202_R35_BASE_R73_TEST_292_P.pak",
+      "bytes": 68955261,
+      "sha256": "24861cb2bead447b7e3f735a6d4b9771873f9e3b94614f2a5d0980d6864b8e24",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Tank_B25804202_R35_BASE_R73_TEST_292_P.pak"
     },
     {
       "name": "MIDWAY_Transport_Network_Q1_290_P.pak",
@@ -134,8 +140,8 @@
     },
     {
       "name": "R34_300_P.pak",
-      "bytes": 22820241,
-      "sha256": "1f94f6a00f3c9ab7ef132ed2d2f2a8673d325e85d197bedb32f4973e96cf02aa",
+      "bytes": 22822769,
+      "sha256": "c900e2f58659178176258a986bedaae7dba3192399f39b7b1fa166b938056915",
       "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/R34/R34_300_P.pak"
     },
     {
@@ -149,18 +155,12 @@
       "bytes": 7990988,
       "sha256": "8b299a88cf0e5daa5a11d9f418421895f38b3efaaa6acce8fac2033c2554d3fa",
       "path": "SCUM/Content/Paks/~mods/WeaponManualKit/zzzzzzzzzzz_SCUM_WeaponManualKit_B25804202_R8_304_P.pak"
-    }
-  ],
-  "optional_local_only": [
+    },
     {
       "name": "MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak",
       "bytes": 17658,
       "sha256": "76a84caa88a3589ab53ac12d85eae74d51f58cb407291460a5ff3224c80585e0",
-      "path": "OPTIONAL_LOCAL_ONLY/MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak"
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak"
     }
-  ],
-  "native_gameplay_verified": false,
-  "server_inventory_reference_utc": "2026-10-15T03:39:36Z",
-  "shared_pak_count": 11,
-  "scope": "Existing tested-installation files, unchanged; no new server deployment in this publication"
+  ]
 }
