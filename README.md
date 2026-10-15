@@ -1,3 +1,5 @@
+> Игроку TEST23694: [скачать весь клиент R75/Q31 одним ZIP](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/untagged-04f60de83c699980ec96/MIDWAY_FULL_CLIENT_TEST23694_R75_Q31_20261015.zip). В нём уже все 13 PAK; предыдущие архивы и отдельные обновления не нужны. [Установка](client-r75/INSTALL_RU.md). На сервере обнаружен отдельный отказ Steam API / UnsupportedPlatform — вход пока не подтверждён.
+
 > Обновление танка от 15.10.2026: [R75 — пониженная коробка и исправления зарядки](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/tank-r75-low-range-20261015). На TEST23694 и локальном клиенте установлен R75. Полный комплект ниже содержит R73: после его установки замените только танк на R75. Реальные подъём и стрельба R75 ещё требуют проверки; [инструкция](updates/R75/README_R75_RU.md).
 
 # MIDWAY — полный тестовый комплект

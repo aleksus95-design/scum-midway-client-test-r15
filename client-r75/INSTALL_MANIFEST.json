@@ -1,0 +1,95 @@
+{
+  "release": "full-client-test23694-r75-20261015",
+  "role": "client",
+  "server_id": 23694,
+  "scum_build": "25804202",
+  "files": [
+    {
+      "name": "MIDWAY_BuildAnywhere_Compat_Q22_305_P.pak",
+      "bytes": 919449,
+      "sha256": "0012d6f0c71c02b48d1d96b8bc46d756927e7f1980dbad12b8708aea9692223c",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_BuildAnywhere_Compat_Q22_305_P.pak"
+    },
+    {
+      "name": "MIDWAY_Client_FULL_B25804202_R19_225_P.pak",
+      "bytes": 860004641,
+      "sha256": "d9a15db06ebf7ccbaebefbb21dbac00e24a4cf6026b494d33004e8a27ae819b2",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Client_FULL_B25804202_R19_225_P.pak"
+    },
+    {
+      "name": "MIDWAY_MemoryModules_B25804202_R54_265_P.pak",
+      "bytes": 44866,
+      "sha256": "5515d857631394469e7c629e37c5505db06c4f222862625bd27dc868bb41d08a",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_MemoryModules_B25804202_R54_265_P.pak"
+    },
+    {
+      "name": "MIDWAY_Silver_FIX_B25804202_R74_308_P.pak",
+      "bytes": 317024,
+      "sha256": "a737d463b77feb7ba85eacb9bcccc1f559269b15a711c80ab4214be2b5ff538e",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Silver_FIX_B25804202_R74_308_P.pak"
+    },
+    {
+      "name": "MIDWAY_Tank_B25804202_R35_BASE_R75_TEST_292_P.pak",
+      "bytes": 68959111,
+      "sha256": "90d545058eca4e85993f33eacbaedd059d2c8c4c2ba2d0a3d697d0484b743d5f",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Tank_B25804202_R35_BASE_R75_TEST_292_P.pak"
+    },
+    {
+      "name": "MIDWAY_Transport_Network_Q1_290_P.pak",
+      "bytes": 48647,
+      "sha256": "c720b9373460abcfb21fee2b2e4e4b0bde2352161e3b8756c74e355d3e49e8ab",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Transport_Network_Q1_290_P.pak"
+    },
+    {
+      "name": "MIDWAY_Vehicles_FIX_B25804202_R43_251_P.pak",
+      "bytes": 6161325,
+      "sha256": "e7f2ee2e2827c2a5c12f04041b97a45d21adc82d82cc4b3853e1437507845780",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Vehicles_FIX_B25804202_R43_251_P.pak"
+    },
+    {
+      "name": "MIDWAY_WeaponKit_D9_STAGE_PROBE_399_P.pak",
+      "bytes": 17240,
+      "sha256": "48837c675a7d5c3b096cb0dd5f05e725a8fca2d0951a3fb2f9c9b24a8f1859bb",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_WeaponKit_D9_STAGE_PROBE_399_P.pak"
+    },
+    {
+      "name": "MIDWAY_ZoneGrenade_FIX_B25804202_R36_244_P.pak",
+      "bytes": 11253,
+      "sha256": "5b0e6fcc66738e3b76367b3911730926fee6080c4f54866b9e21c196e5a8bd75",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_ZoneGrenade_FIX_B25804202_R36_244_P.pak"
+    },
+    {
+      "name": "R34_300_P.pak",
+      "bytes": 22822769,
+      "sha256": "c900e2f58659178176258a986bedaae7dba3192399f39b7b1fa166b938056915",
+      "path": "SCUM/Content/Paks/~mods/R34/R34_300_P.pak"
+    },
+    {
+      "name": "zzzzzzzzzzz_SCUM_StalkerArcherSpawn_B25804202_R3_303_P.pak",
+      "bytes": 101099,
+      "sha256": "3b8e4d2ecce28dd8c815a53aa050cfb9ade10b4a5adba143bd8c7cc86012b1e4",
+      "path": "SCUM/Content/Paks/~mods/StalkerRespawn/zzzzzzzzzzz_SCUM_StalkerArcherSpawn_B25804202_R3_303_P.pak"
+    },
+    {
+      "name": "zzzzzzzzzzz_SCUM_WeaponManualKit_B25804202_R8_304_P.pak",
+      "bytes": 7990988,
+      "sha256": "8b299a88cf0e5daa5a11d9f418421895f38b3efaaa6acce8fac2033c2554d3fa",
+      "path": "SCUM/Content/Paks/~mods/WeaponManualKit/zzzzzzzzzzz_SCUM_WeaponManualKit_B25804202_R8_304_P.pak"
+    },
+    {
+      "name": "MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak",
+      "bytes": 17658,
+      "sha256": "76a84caa88a3589ab53ac12d85eae74d51f58cb407291460a5ff3224c80585e0",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak"
+    }
+  ],
+  "active_paks": 13,
+  "tank": "R75",
+  "skyline": "Q31",
+  "silver": "R74",
+  "full_package": "Client_FULL_R19_Q22",
+  "shared_paks_matching_hash_verified_deployment": 12,
+  "current_server_mount_names_match": true,
+  "native_join_verified": false,
+  "server_auth_issue": "Steam API initialization fails, UnsupportedPlatform; a client PAK archive cannot repair server authentication."
+}
