@@ -1,63 +1,32 @@
-# SCUM MIDWAY — клиентская сборка R15 для тестов
+# MIDWAY — полный тестовый комплект, 15.10.2026
 
-[Скачать полный клиентский PAK, 860 МБ](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/r15-b25804202/MIDWAY_Client_FULL_B25804202_R15_220_P.pak) · [Страница тестового релиза](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/r15-b25804202)
+**Тестер, начинай с клиентского ZIP:** [скачать полный клиентский комплект, 958.8 МБ](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/MIDWAY_FULL_CLIENT_TEST_20261015_R70_Q29.zip). Все текущие зависимости внутри.
 
-Файл `MIDWAY_Client_FULL_B25804202_R15_220_P.pak` содержит всю текущую клиентскую сборку MIDWAY, пульт и исправления R15.
-Дополнительные MIDWAY R5/R7/PATCH для этого файла не требуются.
-Совместимая версия SCUM: **1.3.4.2.161892**, Steam build **25804202**.
+Для администратора: [полный серверный комплект, 736.3 МБ](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/MIDWAY_FULL_SERVER_TEST_20261015_R70_Q29.zip). Его не устанавливать в клиент.
 
-## Установка
+SCUM **1.3.4.2.161892 / build 25804202**. Танк **R70**, Skyline **Q29**, MH6/V22 **Q1**, Client FULL **R19** / Server FULL **R19 Q22**, Vehicles **R43**, Silver **R44**, Memory **R54**, Zone **R36**, BuildAnywhere **Q22**, WeaponKit **R8+D9**, Stalker/Archer **R3**.
 
-1. Закройте SCUM.
-2. Перенесите прежние MIDWAY FULL/PATCH и отдельный MidwayCommandMenu в резервную папку **вне всей `SCUM\Content\Paks`**.
-3. Создайте в установленной игре папку `SCUM\Content\Paks\~Mods\MIDWAY`.
-4. Скопируйте в неё один `MIDWAY_Client_FULL_B25804202_R15_220_P.pak`.
-5. Подключитесь к тестовому серверу, указанному администратором, с соответствующей сборкой MIDWAY R15.
+В каждом основном архиве **12 PAK**; 11 общих файлов совпадают у клиента и сервера. В клиентском ZIP есть отдельный необязательный вариант B2 без роботов, вне активной папки SCUM. Моды поставляются только как PAK; дополнительные Lua/DLL не требуются.
 
-Оригинальные файлы игры сохраняйте. В активных папках Paks должна остаться одна клиентская версия MIDWAY.
+- [Установка и откат](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/START_HERE_RU.md).
+- [Что проверять по каждому моду](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/TEST_PLAN_20261015.md).
+- [Комплекты: танк/снаряды, оружие/магазины, устройства/батареи](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/TEST_KITS_20261015.md).
+- [Все 156 команд](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/TEST_COMMANDS_20261015.txt).
+- [Таблица проверки всех 51 оружейных комплектов](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/WEAPONKIT_51_TEST.csv).
+- [Контрольные суммы ZIP](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/DOWNLOAD_SHA256SUMS.txt), [состав и SHA каждого PAK](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-test-20261015-r70-q29-b25804202/MANIFEST_FULL_20261015.json).
 
-## Проверка файла
+Старые FULL/PATCH не добавлять поверх. Игра должна быть закрыта при замене. Для теста зарядки танка отключить бесконечные патроны: **R — пополнение из своего инвентаря, PG-7M для пушки, обычные .50 BMG для пулемёта**. Проверять свежий танк и обе роли. Команды выдачи находятся в инструкции.
 
-Размер: **860020725 байт**.
+Текущие PAK сохранены без изменений. 14 уникальных PAK прошли проверку контейнеров; каждый файл обеих ZIP прочитан обратно и сверен по SHA-256. Запуск 23694 с R70 подтверждён ранее; эта публикация сервер не меняет. Полная игровая приёмка ещё требуется: исчезновение части WK-оружия, исходный магазин, Silver R44/трассер, Ghost после смерти, проходимость/защита танка, звук/нитро Skyline, пассажирские рывки. Проблемные сценарии явно включены в план.
 
-SHA256:
+Это **предварительный тестовый релиз**, не заявление об устранении всех крашей. Новое чтение MIDWAY на обоих бортах/корме и изменения подвески/зацепов входят в R70; рабочая цепочка пополнения/стрельбы R66 сохранена.
 
-```text
-8d03aaa57eccc9138bc7d1bb6ad5e3fa0ec8988008aab6206839b6c5a6404dc6
-```
+## Читать инструкции прямо на GitHub
 
-Для проверки в PowerShell выполните в папке скачивания:
+[Начать здесь](START_HERE_RU.md) · [План тестов](TEST_PLAN_20261015.md) · [Комплекты и управление](TEST_KITS_20261015.md) · [Команды](TEST_COMMANDS_20261015.txt) · [51 оружие — таблица результата](WEAPONKIT_51_TEST.csv) · [Шаблон ошибки](BUG_REPORT_RU.md).
 
-```powershell
-Get-FileHash -LiteralPath 'MIDWAY_Client_FULL_B25804202_R15_220_P.pak' -Algorithm SHA256
-```
+[Страница полного релиза](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/full-test-20261015-r70-q29-b25804202). В GitHub Assets выбирать ZIP с CLIENT или SERVER. Автоматические Source code ZIP/TAR содержат документацию, а не полный набор PAK.
 
-Полный PAK прошёл UnrealPak Test/Verify/List/Extract и побайтовую сверку всех **7933 файлов**.
-Unreal Engine 4.27 подтвердил выбор каждого функционального файла из прежней цепочки R5+R7+R15 и из нового FULL.
-Повторяющихся виртуальных путей: **0**. В клиентской и серверной сборках совпадает AssetRegistry.
+## Старые версии
 
-## Задачи тестирования
-
-Игровая приёмка ещё не завершена. Ремонт КамАЗа у торговца пока не исправлен.
-Проверьте нативный лут Silver, пределы/однократность лута, посадку и выход из транспорта, звук остановки Spy,
-защиту ног Ghost, первое лицо Spartan и синхронизацию между игроками.
-
-В отчёте об ошибке укажите версию R15, шаги воспроизведения и при возможности видео/журнал без паролей и личных данных.
-
-## Откат
-
-Закройте игру, перенесите новый FULL вне Paks и верните сохранённую предыдущую клиентскую сборку.
-
-## Полный список команд и комплекты для теста
-
-
-- [Все 99 новых типизированных команд](TEST_COMMANDS_R15.txt) — 87 предметов, 6 транспортных классов и 6 записей монстров/NPC.
-- [8 комплектов: оружие/магазины/патроны, батареи и устройства](TEST_KITS_R15.md) — все строки для выдачи и шаги проверки.
-- [Таблица всех новых команд](ALL_TEST_OBJECTS_R15.csv).
-- [265 служебных первичных записей](SUPPORTING_OBJECTS_R15.csv) — без выдуманных команд SpawnItem для неподходящих типов.
-
-В командах сохранены точные имена реестра R15. Скрытые записи отмечены; игровой допуск этих строк нужно проверить.
-Короткий `MW_PyramidHead` ранее отклонялся игрой. Команды этого списка в SCUM при его составлении не выполнялись.
-Silver проверяется на штатно появившемся дроне; несуществующая SpawnSilver/SpawnDrone не добавлена.
-
-Те же файлы доступны в Assets [тестового релиза](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/r15-b25804202).
+R15-команды и комплекты в этом репозитории оставлены как история; их инструкции установки устарели. Для текущего теста использовать только полный релиз выше. Предыдущие релизы доступны в [архиве Releases](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases).

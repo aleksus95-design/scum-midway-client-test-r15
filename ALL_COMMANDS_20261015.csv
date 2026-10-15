@@ -1,0 +1,157 @@
+﻿group,label,command,hidden,source
+Монстры и NPC,DeepMonstrosity,#SpawnAnimal zzzzzzMIDWAY_DeepMonstrosity 1,False,Current registry: preserved primary ID; gameplay pending
+Монстры и NPC,BipedRobot5,#SpawnArmedNPC zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_BipedRobot_Lvl_5 1,False,Current registry: preserved primary ID; gameplay pending
+MH6 и оборудование,Грузовой контейнер MH6,#SpawnItem zzMIDWAY_BP_MH6_Cargo 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов тяжёлая броня задняя часть,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Back_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов тяжёлая броня левая часть,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Left_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов тяжёлая броня правая часть,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Right_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов тяжёлая броня верх,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorHeavy_Top_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов лёгкая броня задняя часть,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Back_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов лёгкая броня левая часть,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Left_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов лёгкая броня правая часть,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Right_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов лёгкая броня верх,#SpawnItem zzMIDWAY_MWTruck_Body_ArmorLight_Top_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов передняя часть,#SpawnItem zzMIDWAY_MWTruck_Body_Front 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов левая часть,#SpawnItem zzMIDWAY_MWTruck_Body_Left 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов правая часть,#SpawnItem zzMIDWAY_MWTruck_Body_Right 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Кузов верх,#SpawnItem zzMIDWAY_MWTruck_Body_Top 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Бампер задняя часть,#SpawnItem zzMIDWAY_MWTruck_Bumper_Back_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Бампер передняя часть,#SpawnItem zzMIDWAY_MWTruck_Bumper_Front_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Капот,#SpawnItem zzMIDWAY_MWTruck_DoorHood_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь багажника тяжёлая броня,#SpawnItem zzMIDWAY_MWTruck_DoorTrunk_ArmorHeavy_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь багажника лёгкая броня,#SpawnItem zzMIDWAY_MWTruck_DoorTrunk_ArmorLight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь багажника,#SpawnItem zzMIDWAY_MWTruck_DoorTrunk_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь тяжёлая броня задний левый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_BackLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь тяжёлая броня задний правый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_BackRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь тяжёлая броня передний левый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_FrontLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь тяжёлая броня передний правый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorHeavy_FrontRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь лёгкая броня задний левый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_BackLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь лёгкая броня задний правый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_BackRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь лёгкая броня передний левый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_FrontLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь лёгкая броня передний правый,#SpawnItem zzMIDWAY_MWTruck_Door_ArmorLight_FrontRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь задний левый,#SpawnItem zzMIDWAY_MWTruck_Door_BackLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь задний правый,#SpawnItem zzMIDWAY_MWTruck_Door_BackRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь передний левый,#SpawnItem zzMIDWAY_MWTruck_Door_FrontLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Дверь передний правый,#SpawnItem zzMIDWAY_MWTruck_Door_FrontRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Двигатель Генератор,#SpawnItem zzMIDWAY_MWTruck_Engine_Alternator_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Контейнер,#SpawnItem zzMIDWAY_MWTruck_Item_Container 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Фара передний левый,#SpawnItem zzMIDWAY_MWTruck_Lights_FrontLeft 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Фара передний правый,#SpawnItem zzMIDWAY_MWTruck_Lights_FrontRight 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Фара задний левый,#SpawnItem zzMIDWAY_MWTruck_Lights_RearLeft 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Фара задний правый,#SpawnItem zzMIDWAY_MWTruck_Lights_RearRight 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Фара задний верхний,#SpawnItem zzMIDWAY_MWTruck_Lights_RearTop 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Сиденье передний левый,#SpawnItem zzMIDWAY_MWTruck_Seat_FrontLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Сиденье передний правый,#SpawnItem zzMIDWAY_MWTruck_Seat_FrontRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Колесо тяжёлая броня передний левый,#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorHeavy_FrontLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Колесо тяжёлая броня передний правый,#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorHeavy_FrontRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Колесо лёгкая броня передний левый,#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorLight_FrontLeft_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Колесо лёгкая броня передний правый,#SpawnItem zzMIDWAY_MWTruck_Wheel_ArmorLight_FrontRight_Item 1,True,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ — Колесо,#SpawnItem zzMIDWAY_MWTruck_Wheel_Item 1,True,Current registry: preserved primary ID; gameplay pending
+V22 Osprey и контейнер,V22 Osprey Item Container,#SpawnItem zzMIDWAY_V22_Osprey_Item_Container 1,True,Current registry: preserved primary ID; gameplay pending
+Яхта и контейнер,Yacht Item Container,#SpawnItem zzMIDWAY_Yacht_Item_Container 1,True,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Кузов Hellrider,#SpawnItem zzzzzMIDWAY_SpyHypersport_Body_Hellrider_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Кузов,#SpawnItem zzzzzMIDWAY_SpyHypersport_Body_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Стоп-сигнал,#SpawnItem zzzzzMIDWAY_SpyHypersport_Brakelight_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Крыло,#SpawnItem zzzzzMIDWAY_SpyHypersport_Fender_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — передняя часть Щиток,#SpawnItem zzzzzMIDWAY_SpyHypersport_Front_Shield_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — передняя часть Колесо Накладка,#SpawnItem zzzzzMIDWAY_SpyHypersport_Front_Wheel_Cover_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Фара,#SpawnItem zzzzzMIDWAY_SpyHypersport_Headlight_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Hellrider Череп,#SpawnItem zzzzzMIDWAY_SpyHypersport_Hellrider_Skull_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Самодельный Колесо,#SpawnItem zzzzzMIDWAY_SpyHypersport_Improvised_Wheel 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Контейнер,#SpawnItem zzzzzMIDWAY_SpyHypersport_Item_Container 1,True,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Колесо 110 80 R19,#SpawnItem zzzzzMIDWAY_SpyHypersport_Wheel_110_80_R19_Item 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — Колесо 90 90 R21,#SpawnItem zzzzzMIDWAY_SpyHypersport_Wheel_90_90_R21_Item 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ целеуказателя,Батарея целеуказателя — базовая,#SpawnItem zzzzzzMIDWAY_LocatorBattery 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ целеуказателя,Батарея целеуказателя — вариант 20,#SpawnItem zzzzzzMIDWAY_LocatorBattery20 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ целеуказателя,Батарея целеуказателя — вариант 30,#SpawnItem zzzzzzMIDWAY_LocatorBattery30 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ целеуказателя,Батарея целеуказателя — вариант 40,#SpawnItem zzzzzzMIDWAY_LocatorBattery40 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ целеуказателя,Батарея целеуказателя — вариант 50,#SpawnItem zzzzzzMIDWAY_LocatorBattery50 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ целеуказателя,Батарея целеуказателя — вариант 60,#SpawnItem zzzzzzMIDWAY_LocatorBattery60 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ целеуказателя,Target Locator / целеуказатель,#SpawnItem zzzzzzMIDWAY_TargetLocator 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Экспедиционный рюкзак 01,#SpawnItem zzzzzzzzMIDWAY_Expedition_Backpack_01 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Экспедиционный рюкзак 02,#SpawnItem zzzzzzzzMIDWAY_Expedition_Backpack_02 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Экспедиционный рюкзак 03,#SpawnItem zzzzzzzzMIDWAY_Expedition_Backpack_03 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Тепловизионный прицел,#SpawnItem zzzzzzzzMIDWAY_ThermalScope 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Костюм Spartan MkV,#SpawnItem zzzzzzzzzMIDWAY_Spartan_MkV 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ энергетической винтовки,Энергетическая ячейка BinaryCharge,#SpawnItem zzzzzzzzzzzzMIDWAY_BinaryCharge 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ энергетической винтовки,Binary Rifle / энергетическая винтовка,#SpawnItem zzzzzzzzzzzzMIDWAY_BinaryRifle 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Майнинг-ферма,#SpawnItem zzzzzzzzzzzzzMIDWAY_MiningRig 1,False,Current registry: preserved primary ID; gameplay pending
+MH6 и оборудование,Бортовой Minigun MH6,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_MH6_Minigun 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ энергетической винтовки,Энергетическая ячейка RailBattery,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailBattery 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ энергетической винтовки,Служебный внутренний боеприпас винтовки,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailEnergy_Internal 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Minigun,Ручной Minigun,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_Minigun 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Minigun,Короб Minigun на 500,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_MinigunBox500 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Rail Turret,Боеприпас RailCharge для турели,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailCharge 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Rail Turret,Rail Turret,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailTurret 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Костюм Ghost,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_Ghost 1,False,Current registry: preserved primary ID; gameplay pending
+"Костюмы, снаряжение и прочие предметы",Zone Grenade,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ZoneGrenade 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Scout,Пульт Scout Deck,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ScoutDeck 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Scout,Управляемый Scout Drone,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ScoutDrone 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Vector,Магазин Vector на 40,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_VectorMagazine40 1,False,Current registry: preserved primary ID; gameplay pending
+КОМПЛЕКТ Vector,Vector SD,#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_VectorSD 1,False,Current registry: preserved primary ID; gameplay pending
+КамАЗ и его детали,КамАЗ,#SpawnVehicle zzMIDWAY_BPC_MIDWAY_Kamaz 1,False,Current registry: preserved primary ID; gameplay pending
+V22 Osprey и контейнер,V22 Osprey,#SpawnVehicle zzMIDWAY_BPC_V22_Osprey 1,False,Current registry: preserved primary ID; gameplay pending
+Яхта и контейнер,Яхта,#SpawnVehicle zzMIDWAY_BPC_Yacht 1,False,Current registry: preserved primary ID; gameplay pending
+MH6 и оборудование,MH6 Little Bird,#SpawnVehicle zzMIDWAY_BP_MH6_LittleBird 1,False,Current registry: preserved primary ID; gameplay pending
+Spy Hypersport и его детали,Spy — BPC SpyHypersport,#SpawnVehicle zzzzzMIDWAY_BPC_SpyHypersport 1,False,Current registry: preserved primary ID; gameplay pending
+МиГ-29,МиГ-29,#SpawnVehicle zzzzzzMIDWAY_BPC_Mig29 1,False,Current registry: preserved primary ID; gameplay pending
+Монстры и NPC,ArchVile,#SpawnZombie zzzzzzMIDWAY_ArchVile 1,False,Current registry: preserved primary ID; gameplay pending
+Монстры и NPC,ArchVile Spawn,#SpawnZombie zzzzzzMIDWAY_ArchVile_Spawn 1,True,Current registry: preserved primary ID; gameplay pending
+Монстры и NPC,DeepMonstrosity,#SpawnZombie zzzzzzMIDWAY_DeepMonstrosity 1,False,Current registry: preserved primary ID; gameplay pending
+Монстры и NPC,PyramidHead,#SpawnZombie zzzzzzMIDWAY_PyramidHead 1,True,Current registry: preserved primary ID; gameplay pending
+Танк,MIDWAY Tank R70,#SpawnVehicle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzBPC_MIDWAY_Tank 1,False,Current registry; exact long primary ID
+Skyline,Skyline R34 Q29,#SpawnVehicle Скайлайн 1,False,R34 registry and existing install instructions; current combined runtime acceptance pending
+Модули памяти,MemoryModule_Level1,#SpawnItem MemoryModule_Level1 1,False,Current registry; R54 changes native item behavior
+Модули памяти,MemoryModule_Level2,#SpawnItem MemoryModule_Level2 1,False,Current registry; R54 changes native item behavior
+Модули памяти,MemoryModule_Level3,#SpawnItem MemoryModule_Level3 1,False,Current registry; R54 changes native item behavior
+Модули памяти,MemoryModule_Level4,#SpawnItem MemoryModule_Level4 1,False,Current registry; R54 changes native item behavior
+WeaponKit — все 51,TEC01 490,#SpawnItem WK_590A11 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Kar98,#SpawnItem WK_98k_Karabiner 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,AK-15,#SpawnItem WK_AK15 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,AK-47,#SpawnItem WK_AK47 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,AKM,#SpawnItem WK_AKM 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,AKS-74U,#SpawnItem WK_AKS_74U 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,AS Val,#SpawnItem WK_AS_Val 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,AWM,#SpawnItem WK_AWM 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,AWP,#SpawnItem WK_AWP 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Block 21,#SpawnItem WK_Block21 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Carbon Hunter,#SpawnItem WK_CarbonBear 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Carbon Hunter,#SpawnItem WK_CarbonHunter 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,DEagle .357,#SpawnItem WK_Deagle_357 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,DEagle 50,#SpawnItem WK_DEagle_50 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,DT11B,#SpawnItem WK_DT11B 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,"""The Mule"" DT11B short",#SpawnItem WK_DT11B_Sawed_Off 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,HS-9,#SpawnItem WK_HS9 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Hunter85_V2,#SpawnItem WK_Hunter85_V2 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Krueger,#SpawnItem WK_Krueger 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M16A4,#SpawnItem WK_M16A4 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M1887,#SpawnItem WK_M1887 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M1887 Sawed off,#SpawnItem WK_M1887_Sawed_off 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M1911,#SpawnItem WK_M1911 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M1 Rifle,#SpawnItem WK_M1_Garand 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M249,#SpawnItem WK_M249 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M82A1,#SpawnItem WK_M82A1 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,TEC01 M9,#SpawnItem WK_M9 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,MAC10,#SpawnItem WK_MAC10 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,MK18,#SpawnItem WK_MK18 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,M1891,#SpawnItem WK_MosinNagant 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,MP5,#SpawnItem WK_MP5 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,MP5 K,#SpawnItem WK_MP5_K 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,MP5 SD,#SpawnItem WK_MP5_SD 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,RPK,#SpawnItem WK_RPK_74 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,SCAR_DMR,#SpawnItem WK_SCAR_DMR 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,SCAR_L,#SpawnItem WK_SCAR_L 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,SDASS 12M,#SpawnItem WK_SDASS 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,SF19,#SpawnItem WK_SF19 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,SKS,#SpawnItem WK_SKS 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,SVD,#SpawnItem WK_SVD_Dragunov 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,TommyGun,#SpawnItem WK_TommyGun 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Trench_Gun,#SpawnItem WK_Trench_Gun 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,UMP-45,#SpawnItem WK_UMP45 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,VHS2,#SpawnItem WK_VHS2 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,VHS 2 ,#SpawnItem WK_VHS2_Rail 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,VHS BG,#SpawnItem WK_VHS_BG 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,VSS_VZ,#SpawnItem WK_VSS_VZ 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Judge 44,#SpawnItem WK_Judge44 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,PeaceKeeper38,#SpawnItem WK_PeaceKeeper38 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Serpent 357,#SpawnItem WK_Serpent357 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
+WeaponKit — все 51,Viper M357,#SpawnItem WK_Viper_M357 1,False,R8 recipe + packaged config redirect + existing UE alias proof; native appearance/firing pending
