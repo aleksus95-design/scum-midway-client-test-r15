@@ -1,0 +1,16 @@
+{
+  "revision": "R35_BASE_R75_TEST_292",
+  "build": 25804202,
+  "pak": "MIDWAY_Tank_B25804202_R35_BASE_R75_TEST_292_P.pak",
+  "bytes": 68959111,
+  "sha256": "90d545058eca4e85993f33eacbaedd059d2c8c4c2ba2d0a3d697d0484b743d5f",
+  "member_count": 476,
+  "pak_test": true,
+  "all_reextracted_member_hashes_match": true,
+  "native_gameplay_verified": false,
+  "status": "INSTALLED_CLIENT_AND_TEST23694_STARTUP_VERIFIED_GAMEPLAY_PENDING",
+  "previous_version": "R73_TEST_292",
+  "full_base_release": "full-test-20261015-r73-q31-b25804202",
+  "identical_client_server": true,
+  "primary_ids_preserved": 69
+}

@@ -1,0 +1,350 @@
+{
+  "final-package-audit.json": {
+    "status": "PACKAGE_AND_BYTECODE_PASS_NATIVE_SCUM_ACCEPTANCE_REQUIRED",
+    "packages": 227,
+    "primary_identities_preserved": 69,
+    "unique_classes": 155,
+    "unique_export_outer_name_pairs": true,
+    "own_import_refs": 271,
+    "scripted_functions": 119,
+    "valid_branch_targets": 794,
+    "native_dependency_missing": [],
+    "no_rpc_suffix_or_out_frame_errors": true,
+    "no_struct_or_array_return_temporaries": true
+  },
+  "camera-gears-tests.json": {
+    "pass": true,
+    "checks": [
+      "TankOptics_28_angles_camera_above_hull",
+      "TankOptics_inside_hit_uses_roof_fallback",
+      "TankOptics_outside_world_obstacle_kept",
+      "TankOptics_FPP_restored",
+      "MGOptics_28_angles_camera_above_hull",
+      "MGOptics_inside_hit_uses_roof_fallback",
+      "MGOptics_outside_world_obstacle_kept",
+      "MGOptics_FPP_restored",
+      "driver_360_orbit_retained",
+      "GearboxData_post_shift_hysteresis",
+      "GearboxDataReduced_post_shift_hysteresis"
+    ],
+    "camera_native_calls_and_sweep_mocked": true,
+    "native_SCUM_gameplay": false
+  },
+  "gearbox-ranges.json": {
+    "pass": true,
+    "current_build_donor": 25804202,
+    "archived_low_range_matches_current_donor": true,
+    "low_range_labels": [
+      "RL",
+      "N",
+      "1L",
+      "2L",
+      "3L"
+    ],
+    "normal_gears_preserved": true,
+    "attachment_identity_preserved": true,
+    "root_low_range_and_attachment_agree": true,
+    "roundtrip_exact": true,
+    "native_SCUM_hill_start_verified": false
+  },
+  "ballistics-change.json": {
+    "changes": [
+      {
+        "field": "MuzzleVelocity",
+        "before": 12000.0,
+        "after": 80000.0
+      },
+      {
+        "field": "BallisticCoefficient",
+        "before": 0.20399999618530273,
+        "after": 0.75
+      }
+    ],
+    "own_projectile_package": "/Game/MIDWAY/Tank/Weapons/BP_TankShell",
+    "ordinary_RPG_unchanged": true,
+    "explosion_damage_and_radius_unchanged": true,
+    "gravity_not_disabled": true,
+    "applied_before_full_ammo_state_ack": true,
+    "native_trajectory_test": false
+  },
+  "ammo-network.json": {
+    "pass": true,
+    "native_scum_gameplay_verified": false,
+    "scope": "Actual R75 cooked complete-ammunition multicast bytecode and real two-client UDP serialization. Native Weapon array and SCUM replication graph are fixtures; no live SCUM shooting claim.",
+    "cases": [
+      {
+        "case": "actual_cooked_both_guns_load",
+        "pass": true
+      },
+      {
+        "case": "RPC_reliable_multicast_array24_initialized",
+        "pass": true
+      },
+      {
+        "case": "RPC_reliable_multicast_array24_initialized",
+        "pass": true
+      },
+      {
+        "case": "server_game_mode",
+        "pass": true
+      },
+      {
+        "case": "UDP_listener",
+        "pass": true
+      },
+      {
+        "case": "client_connect",
+        "pass": true
+      },
+      {
+        "case": "client_connect",
+        "pass": true
+      },
+      {
+        "case": "two_remote_connections",
+        "pass": true
+      },
+      {
+        "case": "both_guns_replicated_to_owner_and_observer",
+        "pass": true
+      },
+      {
+        "case": "authority_pool_alone_leaves_client_empty",
+        "pass": true
+      },
+      {
+        "case": "authority_pool_alone_leaves_client_empty",
+        "pass": true
+      },
+      {
+        "case": "server_count_unchanged_by_publish",
+        "pass": true
+      },
+      {
+        "case": "exact_pools_used_count_ammo_and_projectile_class_arrive_over_UDP",
+        "pass": true
+      },
+      {
+        "case": "exact_pools_used_count_ammo_and_projectile_class_arrive_over_UDP",
+        "pass": true
+      },
+      {
+        "case": "server_count_unchanged_by_publish",
+        "pass": true
+      },
+      {
+        "case": "exact_pools_used_count_ammo_and_projectile_class_arrive_over_UDP",
+        "pass": true
+      },
+      {
+        "case": "exact_pools_used_count_ammo_and_projectile_class_arrive_over_UDP",
+        "pass": true
+      },
+      {
+        "case": "no_periodic_refill_overwrites_local_shot",
+        "pass": true
+      },
+      {
+        "case": "no_periodic_refill_overwrites_local_shot",
+        "pass": true
+      },
+      {
+        "case": "repeat_R_updates_same_existing_gun",
+        "pass": true
+      },
+      {
+        "case": "repeat_R_updates_same_existing_gun",
+        "pass": true
+      },
+      {
+        "case": "repeat_R_updates_same_existing_gun",
+        "pass": true
+      },
+      {
+        "case": "repeat_R_updates_same_existing_gun",
+        "pass": true
+      },
+      {
+        "case": "empty_snapshot_clears_stale_client_ammo",
+        "pass": true
+      },
+      {
+        "case": "empty_snapshot_clears_stale_client_ammo",
+        "pass": true
+      },
+      {
+        "case": "empty_snapshot_clears_stale_client_ammo",
+        "pass": true
+      },
+      {
+        "case": "empty_snapshot_clears_stale_client_ammo",
+        "pass": true
+      }
+    ],
+    "commandlet_exit_code": 0,
+    "known_editor_cooked_shader_mismatch_lines": 0,
+    "unexpected_error_lines": 0
+  },
+  "refill-vm.json": {
+    "pass": true,
+    "native_scum_gameplay_verified": false,
+    "scope": "actual cooked source search, ancestry and server dispatch bytecode; native weapon transfer and crew resolution modeled",
+    "cases": [
+      {
+        "case": "actual_cooked_VM_loads",
+        "pass": true
+      },
+      {
+        "case": "R64_remote_prediction_guard_reproduces_no_transfer",
+        "pass": true
+      },
+      {
+        "case": "R65_remote_empty_MG_accepts_real_ammo",
+        "pass": true
+      },
+      {
+        "case": "source_quality_preserved",
+        "pass": true
+      },
+      {
+        "case": "direct_fire_pool_and_capacity_restoration",
+        "pass": true
+      },
+      {
+        "case": "weapon_and_ammo_parent_unchanged",
+        "pass": true
+      },
+      {
+        "case": "empty_cannon_last_source_destroyed_safely",
+        "pass": true
+      },
+      {
+        "case": "capacity_100_without_overconsume",
+        "pass": true
+      },
+      {
+        "case": "full_pool_repeated_R_does_not_debit",
+        "pass": true
+      },
+      {
+        "case": "legacy_19_shells_preserved_no_further_debit",
+        "pass": true
+      },
+      {
+        "case": "multiple_stacks",
+        "pass": true
+      },
+      {
+        "case": "foreign_inventory_not_consumed",
+        "pass": true
+      },
+      {
+        "case": "ground_ammo_not_consumed",
+        "pass": true
+      },
+      {
+        "case": "R64_valid_owner_hides_inventory_parent_regression",
+        "pass": true
+      },
+      {
+        "case": "R65_alternate_inventory_path_resolves",
+        "pass": true
+      },
+      {
+        "case": "controller_owned_inventory",
+        "pass": true
+      },
+      {
+        "case": "owner_cycle_bounded",
+        "pass": true
+      },
+      {
+        "case": "component_inventory_parent",
+        "pass": true
+      },
+      {
+        "case": "non_actor_inventory_outer",
+        "pass": true
+      },
+      {
+        "case": "native_refusal_stops_and_restores_capacity",
+        "pass": true
+      },
+      {
+        "case": "wrong_crew_role_refused",
+        "pass": true
+      },
+      {
+        "case": "old_internal_reserve_preserved",
+        "pass": true
+      },
+      {
+        "case": "empty_inventory_R_resends_existing_MG_once",
+        "pass": true
+      },
+      {
+        "case": "empty_inventory_R_resends_existing_cannon_once",
+        "pass": true
+      },
+      {
+        "case": "wrong_role_does_not_publish",
+        "pass": true
+      },
+      {
+        "case": "whole_stack_one_ack_after_transfer",
+        "pass": true
+      },
+      {
+        "case": "one_of_four_shells_loaded_one_sound",
+        "pass": true
+      },
+      {
+        "case": "repeated_R_no_second_shell_debit",
+        "pass": true
+      },
+      {
+        "case": "full_cannon_no_reload_sound_or_debit",
+        "pass": true
+      },
+      {
+        "case": "empty_inventory_no_reload_sound",
+        "pass": true
+      },
+      {
+        "case": "native_refusal_no_reload_sound",
+        "pass": true
+      },
+      {
+        "case": "MG_refill_no_cannon_sound",
+        "pass": true
+      },
+      {
+        "case": "after_shot_next_R_loads_exactly_one",
+        "pass": true
+      },
+      {
+        "case": "multiple_RPG_stacks_only_one_shell_debited",
+        "pass": true
+      }
+    ]
+  },
+  "native_smoke": {
+    "when": "2026-10-15T19:02:44.779147+00:00",
+    "R75_mounted": true,
+    "world_brought_up": true,
+    "fatal_assertion_script_count": 0,
+    "saved_tank_visible": true,
+    "saved_weapon_reference_warning": true,
+    "gear_shift_fire_drive_verified": false,
+    "normal_exit_requested": true,
+    "exit_log_present": true,
+    "gameplay_limit": "No boarding, held-throttle hill drive, actual refill/fire or trajectory acceptance obtained. The documented input API has no held-throttle action."
+  },
+  "server_startup": {
+    "mounted": true,
+    "world_loaded": true,
+    "fatal": false,
+    "script_warnings": 0,
+    "preexisting_spawnpoint_warning": true
+  }
+}

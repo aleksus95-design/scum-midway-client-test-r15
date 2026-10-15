@@ -1,3 +1,5 @@
+> Обновление танка от 15.10.2026: [R75 — пониженная коробка и исправления зарядки](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/tank-r75-low-range-20261015). На TEST23694 и локальном клиенте установлен R75. Полный комплект ниже содержит R73: после его установки замените только танк на R75. Реальные подъём и стрельба R75 ещё требуют проверки; [инструкция](updates/R75/README_R75_RU.md).
+
 # MIDWAY — полный тестовый комплект
 
 [Актуальный полный CLIENT/SERVER: R73/Q31/R74](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/full-test-20261015-r73-q31-b25804202).
