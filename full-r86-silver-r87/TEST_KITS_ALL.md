@@ -1,0 +1,161 @@
+# Комплекты и команды для проверки
+
+Команды вводить администратором в чат по одной строке. Не выдавать всё сразу: иначе нельзя понять, какой предмет завис или исчез. Проверка наличия ID/алиаса не означает успешного спавна на сервере.
+
+## Танк R76
+
+Создать свежий танк на свободной площадке. Длинное имя копировать целиком:
+
+```text
+#SpawnVehicle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzBPC_MIDWAY_Tank 1
+#SpawnItem Hiking_Backpack_01_01 1
+#SpawnItem Cal_40_PG-7M 5
+#SpawnItem Cal_50BMG 5
+```
+
+Подобрать боеприпасы в свой инвентарь/рюкзак. Это обычные PG-7M и .50 BMG россыпью; коробку распаковать. Число 5 означает пять предметов/стопок; записать реальное количество в инвентаре.
+
+Водитель управляет башней/пушкой, второй член экипажа — пулемётом. Мышь — наведение, ЛКМ — выстрел, ПКМ — приближение, Enter/Home — переключение оптики/третьего лица, R — пополнение орудия текущего места из своего инвентаря. Проверить обе клавиши камеры при стандартной раскладке, записать фактический результат. Новая загрузка пушки — один снаряд; ранее оплаченный запас старых экземпляров не удаляется. Пулемёт — до 100 патронов. Отдельные магазины танка, ручное RPG и ручной Barrett не требуются.
+
+Бесконечные патроны отключить перед этим тестом: они скрывали ошибку загрузки. Сначала записать число боеприпасов, нажать R, проверить списание один раз, сделать выстрел и немедленно повернуть оружие. Повторить на втором месте; затем повторная загрузка, последняя единица, пустой инвентарь, смена оператора и переподключение. Запасы на земле или у второго игрока списываться не должны.
+
+## Skyline Q31
+
+```text
+#SpawnVehicle Скайлайн 1
+```
+
+Левый Shift — нитро. Сравнить ускорение на одинаковом участке с нитро/без него и удерживать Shift через переключение передач. Записать скорость до/после и заряд. Проверить запуск, холостой ход, движение/нагрузку и выключение звука. В зеркалах должна обновляться текущая сцена; на приборах не должны проступать старые красные стрелки. Подробная матрица — в TEST_PLAN_20261015.md.
+
+## Остальной транспорт
+
+**КамАЗ**
+
+```text
+#SpawnVehicle zzMIDWAY_BPC_MIDWAY_Kamaz 1
+```
+
+**V22 Osprey**
+
+```text
+#SpawnVehicle zzMIDWAY_BPC_V22_Osprey 1
+```
+
+**Яхта**
+
+```text
+#SpawnVehicle zzMIDWAY_BPC_Yacht 1
+```
+
+**MH6 Little Bird**
+
+```text
+#SpawnVehicle zzMIDWAY_BP_MH6_LittleBird 1
+```
+
+**Spy — BPC SpyHypersport**
+
+```text
+#SpawnVehicle zzzzzMIDWAY_BPC_SpyHypersport 1
+```
+
+**МиГ-29**
+
+```text
+#SpawnVehicle zzzzzzMIDWAY_BPC_Mig29 1
+```
+
+Каждую машину проверить водителем, пассажиром и внешним наблюдателем. Для MH6/V22 отдельно проверить смену пилота и отсутствие рывков при посадке пассажира. Q1 — дополнение к базовому FULL, который уже находится в архиве.
+
+## Оружие и устройства MIDWAY
+
+### Vector SD
+
+```text
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_VectorSD 1
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_VectorMagazine40 1
+#SpawnItem Cal_9mm 5
+```
+
+Зарядить отдельный магазин и установить. Проверить хват/пальцы в 1-м и 3-м лице, мушку с прицелом, звук и темп стрельбы.
+
+### Ручной Minigun
+
+```text
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_Minigun 1
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_MinigunBox500 1
+#SpawnItem Cal_7_62x39mm 10
+```
+
+Короб ручного Minigun на 500. Проверить зарядку, расход, отдачу и повторную зарядку.
+
+### Энергетическая винтовка
+
+```text
+#SpawnItem zzzzzzzzzzzzMIDWAY_BinaryRifle 1
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailBattery 1
+#SpawnItem zzzzzzzzzzzzMIDWAY_BinaryCharge 1
+```
+
+Устанавливать один источник питания за раз; проверить расход, урон и передачу второму игроку.
+
+### Rail Turret
+
+```text
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailTurret 1
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_RailCharge 1
+```
+
+Проверить штатное питание и загрузку RailCharge, владельца/дружественную цель/вражескую цель и транспорт.
+
+### Scout
+
+```text
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ScoutDrone 1
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_ScoutDeck 1
+#SpawnItem Smartphone_Battery 1
+#SpawnItem Batteries 1
+```
+
+Батареи пробовать по очереди. Проверить управление с пульта, полёт, разряд, возврат камеры, уничтожение.
+
+### Целеуказатель
+
+```text
+#SpawnItem zzzzzzMIDWAY_TargetLocator 1
+#SpawnItem zzzzzzMIDWAY_LocatorBattery 1
+#SpawnItem zzzzzzMIDWAY_LocatorBattery20 1
+#SpawnItem zzzzzzMIDWAY_LocatorBattery30 1
+#SpawnItem zzzzzzMIDWAY_LocatorBattery40 1
+#SpawnItem zzzzzzMIDWAY_LocatorBattery50 1
+#SpawnItem zzzzzzMIDWAY_LocatorBattery60 1
+```
+
+Одну батарею за раз: питание, изображение, дистанция, расход и извлечение.
+
+### MH6, бортовое оружие
+
+```text
+#SpawnItem zzzzzzzzzzzzzzzzzzzzzzzzMIDWAY_MH6_Minigun 1
+#SpawnItem zzMIDWAY_BP_MH6_Cargo 1
+#SpawnItem Cal_7_62x39mm 10
+```
+
+Выдать два бортовых Minigun по одному и проверить оба места. Бортовой вариант не использует ручной короб на 500. Контейнер может быть скрыт от админ-спавна.
+
+## Ghost, Spartan, рюкзаки и модули памяти
+
+Все точные команды — в TEST_COMMANDS_20261015.txt. Для Ghost дополнительно выдать Smartphone_Battery и Batteries и проверять поддерживаемую батарею по одной, записывая фактический слот/заряд. Для модулей памяти есть четыре отдельные команды MemoryModule_Level1…4. До/после установки записать атрибуты: одно применение, один расход, пустой модуль не должен давать повторное улучшение.
+
+## WeaponKit: все 51 комплекта
+
+Отдельный файл WEAPONKIT_51_TEST.csv содержит каждую команду, патроны, магазин, прицел, детали и пустые поля результатов. Первые контрольные команды:
+
+```text
+#SpawnItem WK_AK47 1
+#SpawnItem WK_AKS_74U 1
+#SpawnItem WK_AKM 1
+#SpawnItem WK_M9 1
+```
+
+Для каждого комплекта: время команды → появления; остался ли предмет через 5 и 30 секунд; подобрать; сразу стрелять с исходным магазином без R и запасного магазина; проверить расход; потом перезарядить, передать второму игроку, выйти/войти и сверить детали/остаток патронов. Появление и исчезновение AK47/AKS_74U ранее наблюдалось, поэтому это приоритетная проверка, не объявленная исправленной. Диагностический D9 пишет метки WK_D9_ только для четырёх перечисленных комплектов и не является игровым исправлением. Не устанавливать старые D1–D8 поверх этого набора.
