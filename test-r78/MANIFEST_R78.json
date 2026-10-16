@@ -1,0 +1,20 @@
+{
+  "name": "MIDWAY_VehicleRighting_B25804202_R78_312_P.pak",
+  "bytes": 94970,
+  "sha256": "21a79edf269ba8450174e523d504d00882657224bc7266a98ac6dbf4fe64d99d",
+  "files": 8,
+  "bases": {
+    "tank": "R76",
+    "skyline": "Q32",
+    "kamaz_spy": "Client_FULL_R19"
+  },
+  "install": "matching client and TEST23694",
+  "new_registries": false,
+  "pak_roundtrip_pass": true,
+  "protected_existing_data_and_functions_verified": true,
+  "native_calls_client_and_server_verified": true,
+  "guard_cases": 56,
+  "UE427_PhysX_cases": 12,
+  "native_SCUM_interaction_verified": false,
+  "native_SCUM_multiplayer_righting_verified": false
+}

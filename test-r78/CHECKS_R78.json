@@ -1,0 +1,32 @@
+{
+  "pak_roundtrip": true,
+  "native_signatures": 45,
+  "guard_cases": 56,
+  "physics_cases": 12,
+  "native_interaction_verified": false,
+  "native_two_player_righting_verified": false,
+  "server_startup": {
+    "when": "2026-10-16T09:06:31.524582+00:00",
+    "world": true,
+    "righting_mounted": true,
+    "fatal": false,
+    "script_errors": [],
+    "errors": [
+      "[2026.10.16-11.55.37:716][  0]LogVehicleManager: Error: AddSpawnPoint(X=-863779.000 Y=-847409.625 Z=1721.527): Spawn points too close to each other",
+      "[2026.10.16-12.02.34:765][927]LogSCUM: Error: APrisoner::BeginPlay() _gamepadWalkToRunThreashold (0.60) should be higher than _gamepadRunToWalkThreashold (0.50), adjusting please fix in defaults."
+    ]
+  },
+  "native_client": {
+    "when": "2026-10-16T09:06:32.875501+00:00",
+    "server_id": 23694,
+    "pak_mounted": true,
+    "native_join_observed": true,
+    "saved_skyline_loaded": true,
+    "ordinary_skyline_context_menu_observed": true,
+    "righting_hidden_on_upright_vehicle_observed": true,
+    "new_righting_action_executed": false,
+    "two_player_righting_verified": false,
+    "fatal_in_current_log": false,
+    "clean_exit": true
+  }
+}
