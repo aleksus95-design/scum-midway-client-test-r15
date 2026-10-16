@@ -1,0 +1,93 @@
+{
+  "release": "full-test23694-r76-q32-silver77-20261016",
+  "role": "client",
+  "server_id": 23694,
+  "scum_build": "25804202",
+  "version": "1.3.4.2.161892",
+  "tank": "R76",
+  "skyline": "Q32",
+  "silver": "R77",
+  "files": [
+    {
+      "name": "MIDWAY_BuildAnywhere_Compat_Q22_305_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_BuildAnywhere_Compat_Q22_305_P.pak",
+      "bytes": 919449,
+      "sha256": "0012d6f0c71c02b48d1d96b8bc46d756927e7f1980dbad12b8708aea9692223c"
+    },
+    {
+      "name": "MIDWAY_Client_FULL_B25804202_R19_225_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Client_FULL_B25804202_R19_225_P.pak",
+      "bytes": 860004641,
+      "sha256": "d9a15db06ebf7ccbaebefbb21dbac00e24a4cf6026b494d33004e8a27ae819b2"
+    },
+    {
+      "name": "MIDWAY_MemoryModules_B25804202_R54_265_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_MemoryModules_B25804202_R54_265_P.pak",
+      "bytes": 44866,
+      "sha256": "5515d857631394469e7c629e37c5505db06c4f222862625bd27dc868bb41d08a"
+    },
+    {
+      "name": "MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Sentries_B2Off_Patrol60_B25804202_R1_306_P.pak",
+      "bytes": 17658,
+      "sha256": "76a84caa88a3589ab53ac12d85eae74d51f58cb407291460a5ff3224c80585e0"
+    },
+    {
+      "name": "MIDWAY_Silver_FIX_B25804202_R77_308_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Silver_FIX_B25804202_R77_308_P.pak",
+      "bytes": 317084,
+      "sha256": "30574750690994e25631ed9074c413e6d07d2538855d050069935db4227038be"
+    },
+    {
+      "name": "MIDWAY_Tank_B25804202_R35_BASE_R76_TEST_292_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Tank_B25804202_R35_BASE_R76_TEST_292_P.pak",
+      "bytes": 68959116,
+      "sha256": "1054ef466c4d5a60bd5a436e5232c0c078b8238e0afceb262b07268f502002fb"
+    },
+    {
+      "name": "MIDWAY_Transport_Network_Q1_290_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Transport_Network_Q1_290_P.pak",
+      "bytes": 48647,
+      "sha256": "c720b9373460abcfb21fee2b2e4e4b0bde2352161e3b8756c74e355d3e49e8ab"
+    },
+    {
+      "name": "MIDWAY_Vehicles_FIX_B25804202_R43_251_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_Vehicles_FIX_B25804202_R43_251_P.pak",
+      "bytes": 6161325,
+      "sha256": "e7f2ee2e2827c2a5c12f04041b97a45d21adc82d82cc4b3853e1437507845780"
+    },
+    {
+      "name": "MIDWAY_WeaponKit_D9_STAGE_PROBE_399_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_WeaponKit_D9_STAGE_PROBE_399_P.pak",
+      "bytes": 17240,
+      "sha256": "48837c675a7d5c3b096cb0dd5f05e725a8fca2d0951a3fb2f9c9b24a8f1859bb"
+    },
+    {
+      "name": "MIDWAY_ZoneGrenade_FIX_B25804202_R36_244_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/MIDWAY_ZoneGrenade_FIX_B25804202_R36_244_P.pak",
+      "bytes": 11253,
+      "sha256": "5b0e6fcc66738e3b76367b3911730926fee6080c4f54866b9e21c196e5a8bd75"
+    },
+    {
+      "name": "R34_300_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/R34_300_P.pak",
+      "bytes": 22821896,
+      "sha256": "ee9ce4b71272759658dc4463b6151019d17305eb3fc09cc94b1c5341dd480881"
+    },
+    {
+      "name": "zzzzzzzzzzz_SCUM_StalkerArcherSpawn_B25804202_R3_303_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/zzzzzzzzzzz_SCUM_StalkerArcherSpawn_B25804202_R3_303_P.pak",
+      "bytes": 101099,
+      "sha256": "3b8e4d2ecce28dd8c815a53aa050cfb9ade10b4a5adba143bd8c7cc86012b1e4"
+    },
+    {
+      "name": "zzzzzzzzzzz_SCUM_WeaponManualKit_B25804202_R8_304_P.pak",
+      "path": "SCUM/Content/Paks/~mods/MIDWAY_Test23694/zzzzzzzzzzz_SCUM_WeaponManualKit_B25804202_R8_304_P.pak",
+      "bytes": 7990988,
+      "sha256": "8b299a88cf0e5daa5a11d9f418421895f38b3efaaa6acce8fac2033c2554d3fa"
+    }
+  ],
+  "active_paks": 13,
+  "native_join_verified": true,
+  "full_gameplay_acceptance": false
+}
