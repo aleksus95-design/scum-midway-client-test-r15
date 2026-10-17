@@ -1,0 +1,453 @@
+{
+  "build": "25804202",
+  "custom_factory_names_only": [
+    {
+      "old_package": "/Game/ConZ_Files/Vehicles/Car/Rager/MIDWAYTank/Tank_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTank_ES",
+      "old_factory": "Tank_ES",
+      "new_factory": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTank_ES",
+      "class_name": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTank_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Vehicles/Car/Rager/MIDWAYTank/Tank_Item_Container_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTank_Item_Container_ES",
+      "old_factory": "Tank_Item_Container_ES",
+      "new_factory": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTank_Item_Container_ES",
+      "class_name": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTank_Item_Container_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Vehicles/Car/Rager/MIDWAYTank/TankCannon_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTankCannon_ES",
+      "old_factory": "TankCannon_ES",
+      "new_factory": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTankCannon_ES",
+      "class_name": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzTankCannon_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Vehicles/Car/Rager/MIDWAYTank/Weapon_MIDWAY_TankMG_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzWeapon_MIDWAY_TankMG_ES",
+      "old_factory": "Weapon_MIDWAY_TankMG_ES",
+      "new_factory": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzWeapon_MIDWAY_TankMG_ES",
+      "class_name": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzWeapon_MIDWAY_TankMG_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Vehicles/Car/Rager/MIDWAYTank/Magazine_MIDWAY_TankMG_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMagazine_MIDWAY_TankMG_ES",
+      "old_factory": "Magazine_MIDWAY_TankMG_ES",
+      "new_factory": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMagazine_MIDWAY_TankMG_ES",
+      "class_name": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzMagazine_MIDWAY_TankMG_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_590A11_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_590A11_ES",
+      "old_factory": "WK_590A11_ES",
+      "new_factory": "���������WK_590A11_ES",
+      "class_name": "���������WK_590A11_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_98k_Karabiner_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_98k_Karabiner_ES",
+      "old_factory": "WK_98k_Karabiner_ES",
+      "new_factory": "���������WK_98k_Karabiner_ES",
+      "class_name": "���������WK_98k_Karabiner_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_AK15_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_AK15_ES",
+      "old_factory": "WK_AK15_ES",
+      "new_factory": "���������WK_AK15_ES",
+      "class_name": "���������WK_AK15_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_AK47_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_AK47_ES",
+      "old_factory": "WK_AK47_ES",
+      "new_factory": "���������WK_AK47_ES",
+      "class_name": "���������WK_AK47_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_AKM_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_AKM_ES",
+      "old_factory": "WK_AKM_ES",
+      "new_factory": "���������WK_AKM_ES",
+      "class_name": "���������WK_AKM_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_AKS_74U_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_AKS_74U_ES",
+      "old_factory": "WK_AKS_74U_ES",
+      "new_factory": "���������WK_AKS_74U_ES",
+      "class_name": "���������WK_AKS_74U_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_AS_Val_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_AS_Val_ES",
+      "old_factory": "WK_AS_Val_ES",
+      "new_factory": "���������WK_AS_Val_ES",
+      "class_name": "���������WK_AS_Val_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_AWM_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_AWM_ES",
+      "old_factory": "WK_AWM_ES",
+      "new_factory": "���������WK_AWM_ES",
+      "class_name": "���������WK_AWM_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_AWP_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_AWP_ES",
+      "old_factory": "WK_AWP_ES",
+      "new_factory": "���������WK_AWP_ES",
+      "class_name": "���������WK_AWP_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Block21_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Block21_ES",
+      "old_factory": "WK_Block21_ES",
+      "new_factory": "���������WK_Block21_ES",
+      "class_name": "���������WK_Block21_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_CarbonBear_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_CarbonBear_ES",
+      "old_factory": "WK_CarbonBear_ES",
+      "new_factory": "���������WK_CarbonBear_ES",
+      "class_name": "���������WK_CarbonBear_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_CarbonHunter_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_CarbonHunter_ES",
+      "old_factory": "WK_CarbonHunter_ES",
+      "new_factory": "���������WK_CarbonHunter_ES",
+      "class_name": "���������WK_CarbonHunter_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Deagle_357_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Deagle_357_ES",
+      "old_factory": "WK_Deagle_357_ES",
+      "new_factory": "���������WK_Deagle_357_ES",
+      "class_name": "���������WK_Deagle_357_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_DEagle_50_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_DEagle_50_ES",
+      "old_factory": "WK_DEagle_50_ES",
+      "new_factory": "���������WK_DEagle_50_ES",
+      "class_name": "���������WK_DEagle_50_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_DT11B_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_DT11B_ES",
+      "old_factory": "WK_DT11B_ES",
+      "new_factory": "���������WK_DT11B_ES",
+      "class_name": "���������WK_DT11B_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_DT11B_Sawed_Off_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_DT11B_Sawed_Off_ES",
+      "old_factory": "WK_DT11B_Sawed_Off_ES",
+      "new_factory": "���������WK_DT11B_Sawed_Off_ES",
+      "class_name": "���������WK_DT11B_Sawed_Off_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_HS9_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_HS9_ES",
+      "old_factory": "WK_HS9_ES",
+      "new_factory": "���������WK_HS9_ES",
+      "class_name": "���������WK_HS9_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Hunter85_V2_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Hunter85_V2_ES",
+      "old_factory": "WK_Hunter85_V2_ES",
+      "new_factory": "���������WK_Hunter85_V2_ES",
+      "class_name": "���������WK_Hunter85_V2_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Krueger_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Krueger_ES",
+      "old_factory": "WK_Krueger_ES",
+      "new_factory": "���������WK_Krueger_ES",
+      "class_name": "���������WK_Krueger_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M16A4_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M16A4_ES",
+      "old_factory": "WK_M16A4_ES",
+      "new_factory": "���������WK_M16A4_ES",
+      "class_name": "���������WK_M16A4_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M1887_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M1887_ES",
+      "old_factory": "WK_M1887_ES",
+      "new_factory": "���������WK_M1887_ES",
+      "class_name": "���������WK_M1887_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M1887_Sawed_off_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M1887_Sawed_off_ES",
+      "old_factory": "WK_M1887_Sawed_off_ES",
+      "new_factory": "���������WK_M1887_Sawed_off_ES",
+      "class_name": "���������WK_M1887_Sawed_off_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M1911_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M1911_ES",
+      "old_factory": "WK_M1911_ES",
+      "new_factory": "���������WK_M1911_ES",
+      "class_name": "���������WK_M1911_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M1_Garand_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M1_Garand_ES",
+      "old_factory": "WK_M1_Garand_ES",
+      "new_factory": "���������WK_M1_Garand_ES",
+      "class_name": "���������WK_M1_Garand_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M249_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M249_ES",
+      "old_factory": "WK_M249_ES",
+      "new_factory": "���������WK_M249_ES",
+      "class_name": "���������WK_M249_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M82A1_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M82A1_ES",
+      "old_factory": "WK_M82A1_ES",
+      "new_factory": "���������WK_M82A1_ES",
+      "class_name": "���������WK_M82A1_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_M9_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_M9_ES",
+      "old_factory": "WK_M9_ES",
+      "new_factory": "���������WK_M9_ES",
+      "class_name": "���������WK_M9_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_MAC10_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_MAC10_ES",
+      "old_factory": "WK_MAC10_ES",
+      "new_factory": "���������WK_MAC10_ES",
+      "class_name": "���������WK_MAC10_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_MK18_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_MK18_ES",
+      "old_factory": "WK_MK18_ES",
+      "new_factory": "���������WK_MK18_ES",
+      "class_name": "���������WK_MK18_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_MosinNagant_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_MosinNagant_ES",
+      "old_factory": "WK_MosinNagant_ES",
+      "new_factory": "���������WK_MosinNagant_ES",
+      "class_name": "���������WK_MosinNagant_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_MP5_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_MP5_ES",
+      "old_factory": "WK_MP5_ES",
+      "new_factory": "���������WK_MP5_ES",
+      "class_name": "���������WK_MP5_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_MP5_K_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_MP5_K_ES",
+      "old_factory": "WK_MP5_K_ES",
+      "new_factory": "���������WK_MP5_K_ES",
+      "class_name": "���������WK_MP5_K_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_MP5_SD_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_MP5_SD_ES",
+      "old_factory": "WK_MP5_SD_ES",
+      "new_factory": "���������WK_MP5_SD_ES",
+      "class_name": "���������WK_MP5_SD_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_RPK_74_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_RPK_74_ES",
+      "old_factory": "WK_RPK_74_ES",
+      "new_factory": "���������WK_RPK_74_ES",
+      "class_name": "���������WK_RPK_74_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_SCAR_DMR_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_SCAR_DMR_ES",
+      "old_factory": "WK_SCAR_DMR_ES",
+      "new_factory": "���������WK_SCAR_DMR_ES",
+      "class_name": "���������WK_SCAR_DMR_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_SCAR_L_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_SCAR_L_ES",
+      "old_factory": "WK_SCAR_L_ES",
+      "new_factory": "���������WK_SCAR_L_ES",
+      "class_name": "���������WK_SCAR_L_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_SDASS_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_SDASS_ES",
+      "old_factory": "WK_SDASS_ES",
+      "new_factory": "���������WK_SDASS_ES",
+      "class_name": "���������WK_SDASS_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_SF19_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_SF19_ES",
+      "old_factory": "WK_SF19_ES",
+      "new_factory": "���������WK_SF19_ES",
+      "class_name": "���������WK_SF19_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_SKS_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_SKS_ES",
+      "old_factory": "WK_SKS_ES",
+      "new_factory": "���������WK_SKS_ES",
+      "class_name": "���������WK_SKS_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_SVD_Dragunov_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_SVD_Dragunov_ES",
+      "old_factory": "WK_SVD_Dragunov_ES",
+      "new_factory": "���������WK_SVD_Dragunov_ES",
+      "class_name": "���������WK_SVD_Dragunov_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_TommyGun_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_TommyGun_ES",
+      "old_factory": "WK_TommyGun_ES",
+      "new_factory": "���������WK_TommyGun_ES",
+      "class_name": "���������WK_TommyGun_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Trench_Gun_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Trench_Gun_ES",
+      "old_factory": "WK_Trench_Gun_ES",
+      "new_factory": "���������WK_Trench_Gun_ES",
+      "class_name": "���������WK_Trench_Gun_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_UMP45_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_UMP45_ES",
+      "old_factory": "WK_UMP45_ES",
+      "new_factory": "���������WK_UMP45_ES",
+      "class_name": "���������WK_UMP45_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_VHS2_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_VHS2_ES",
+      "old_factory": "WK_VHS2_ES",
+      "new_factory": "���������WK_VHS2_ES",
+      "class_name": "���������WK_VHS2_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_VHS2_Rail_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_VHS2_Rail_ES",
+      "old_factory": "WK_VHS2_Rail_ES",
+      "new_factory": "���������WK_VHS2_Rail_ES",
+      "class_name": "���������WK_VHS2_Rail_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_VHS_BG_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_VHS_BG_ES",
+      "old_factory": "WK_VHS_BG_ES",
+      "new_factory": "���������WK_VHS_BG_ES",
+      "class_name": "���������WK_VHS_BG_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_VSS_VZ_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_VSS_VZ_ES",
+      "old_factory": "WK_VSS_VZ_ES",
+      "new_factory": "���������WK_VSS_VZ_ES",
+      "class_name": "���������WK_VSS_VZ_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Judge44_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Judge44_ES",
+      "old_factory": "WK_Judge44_ES",
+      "new_factory": "���������WK_Judge44_ES",
+      "class_name": "���������WK_Judge44_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_PeaceKeeper38_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_PeaceKeeper38_ES",
+      "old_factory": "WK_PeaceKeeper38_ES",
+      "new_factory": "���������WK_PeaceKeeper38_ES",
+      "class_name": "���������WK_PeaceKeeper38_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Serpent357_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Serpent357_ES",
+      "old_factory": "WK_Serpent357_ES",
+      "new_factory": "���������WK_Serpent357_ES",
+      "class_name": "���������WK_Serpent357_ES_C",
+      "primary_type": "LWObjectSetup"
+    },
+    {
+      "old_package": "/Game/ConZ_Files/Items/WILDWeaponKit/WK_Viper_M357_ES",
+      "new_package": "/Game/ConZ_Files/Items/MWNet/���������WK_Viper_M357_ES",
+      "old_factory": "WK_Viper_M357_ES",
+      "new_factory": "���������WK_Viper_M357_ES",
+      "class_name": "���������WK_Viper_M357_ES_C",
+      "primary_type": "LWObjectSetup"
+    }
+  ]
+}

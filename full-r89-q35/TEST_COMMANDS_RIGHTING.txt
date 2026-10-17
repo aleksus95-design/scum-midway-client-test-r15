@@ -1,0 +1,4 @@
+﻿#SpawnVehicle zzMIDWAY_BPC_MIDWAY_Kamaz 1
+#SpawnVehicle zzzzzMIDWAY_BPC_SpyHypersport 1
+#SpawnVehicle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzBPC_MIDWAY_Tank 1
+#SpawnVehicle Скайлайн 1
