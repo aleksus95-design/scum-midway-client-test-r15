@@ -1,3 +1,19 @@
+<!-- MIDWAY_CURRENT_M12_LOOT_R1_20261019 -->
+# SCUM MIDWAY — актуальный комплект для тестера
+
+**19.10.2026: [M12 + Loot R1 / Skyline Q38 / Coins R6](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/full-m12-loot-r1-q38-20261019).**
+
+**[Скачать один FULL_CLIENT ZIP](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m12-loot-r1-q38-20261019/MIDWAY_FULL_CLIENT_M12_LOOT_R1_Q38_COINS_R6_20261019.zip)** — все 30 PAK уже внутри.
+
+Большой монстр: 30 монет; маленький: 5; робот: 1; Silver: 1 монета и полная пачка .50 BMG. Новая панель M12 по разбору Pro: компактная шапка, боковые разделы и понятное подтверждение аренды. Цены и остальные исправления сохранены.
+
+[Установка и откат](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m12-loot-r1-q38-20261019/INSTALL_RU.txt) · [Проверка в игре](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m12-loot-r1-q38-20261019/QA_RU.txt) · [Награды](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m12-loot-r1-q38-20261019/LOOT_REWARDS.csv) · [Цены](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m12-loot-r1-q38-20261019/SHOP_PRICES.csv) · [SHA-256](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m12-loot-r1-q38-20261019/DOWNLOAD_SHA256.txt) · [SERVER без тестового триггера](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m12-loot-r1-q38-20261019/MIDWAY_FULL_SERVER_M12_LOOT_R1_Q38_COINS_R6_NO_TEST_TRIGGER_20261019.zip)
+
+Установлено на клиент и TEST23694; общие пакеты совпадают, сервер загрузил карту. Фактическое выпадение и защита от повторного получения требуют игровой проверки. Закройте SCUM и сохраните прежний комплект вне Paks перед установкой.
+
+<details>
+<summary>Прежние релизы и инструкции</summary>
+
 <!-- MIDWAY_CURRENT_LOOT_R1_20261019 -->
 # SCUM MIDWAY — актуальный комплект для тестера
 
@@ -93,6 +109,9 @@ M11 обновляет оформление магазина и сервисов
 ## Откат
 
 Закрыть игру/остановить сервер, перенести весь новый набор вне Paks и вернуть сохранённый старый полный набор. Клиент и сервер откатывать согласованно. Замена PAK не откатывает состояние мира; сохранение — отдельная резервная копия. Рабочий принятый контрольный танкR66 сохранён отдельно и не перезаписан.
+
+
+</details>
 
 
 </details>
