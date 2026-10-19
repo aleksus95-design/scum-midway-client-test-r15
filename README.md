@@ -1,3 +1,19 @@
+<!-- MIDWAY_CURRENT_M11_20261019 -->
+# SCUM MIDWAY — актуальный комплект для тестера
+
+**19.10.2026: [M11 / Skyline Q38 / Coins R6 — полный релиз](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/full-m11-q38-coins-r6-20261019).**
+
+Тестеру нужен **один [FULL_CLIENT ZIP](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m11-q38-coins-r6-20261019/MIDWAY_FULL_CLIENT_M11_Q38_COINS_R6_20261019.zip)** — все 28 PAK уже внутри. Это полный комплект, отдельные прежние обновления не нужны.
+
+[Установка и откат](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m11-q38-coins-r6-20261019/INSTALL_RU.txt) · [План проверки](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m11-q38-coins-r6-20261019/QA_RU.txt) · [Цены](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m11-q38-coins-r6-20261019/SHOP_PRICES.csv) · [SHA-256](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m11-q38-coins-r6-20261019/DOWNLOAD_SHA256.txt) · [SERVER без тестового триггера](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/download/full-m11-q38-coins-r6-20261019/MIDWAY_FULL_SERVER_M11_Q38_COINS_R6_NO_TEST_TRIGGER_20261019.zip)
+
+M11 обновляет оформление магазина и сервисов, переключатели, тексты и иконки аренды. Файлы сверены с установленными на клиенте и TEST23694; все 27 общих PAK совпадают. Игровая приёмка аренды, ответов плагина, транзакций и размещения транспорта ещё требуется.
+
+Перед установкой закрыть игру и вынести прежние папки MIDWAY за пределы Paks. Официальные файлы и сохранения не менять. Подробная инструкция и проверка файлов включены в архив.
+
+<details>
+<summary>Архив прежних инструкций и выпусков — не текущая загрузка</summary>
+
 > **Актуальный полный комплект: [R89 / Q35](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/full-r89-q35-20261017).** Исправлен пропуск звука и эффектов выстрелов Silver. CLIENT18 / SERVER18; общий SERVER без тестового триггера. Клиент и TEST23694 обновлены до Silver R89; все 17 общих PAK совпадают по хешам, запуск сервера проверен; звук и эффекты в игре требуют проверки тестером. Skyline остаётся Q35: толкание, посадка и выход из перевёрнутой машины ещё в работе. [Установка](full-r89-q35/INSTALL_RU.md) · [Что проверять](full-r89-q35/QA_RU.md).
 
 > **Полный TEST23694: [R84 / Q34 / Silver R84](https://github.com/aleksus95-design/scum-midway-client-test-r15/releases/tag/full-test23694-r84-q34-silver84-20261016).** Один CLIENT ZIP содержит все 14 PAK. [Установка](test-r84/INSTALL_RU.md) · [Проверки](test-r84/QA_RU.md). Рабочий танк R83 сохранён; изменена только громкость движения. Silver: эффект и направление корпуса, взрыв до 100 с затуханием на 10 м. Skyline: окончание закрытия двери. Стенды пройдены; живая сетевая проверка новых эффектов и дверей ещё требуется.
@@ -61,3 +77,6 @@
 ## Откат
 
 Закрыть игру/остановить сервер, перенести весь новый набор вне Paks и вернуть сохранённый старый полный набор. Клиент и сервер откатывать согласованно. Замена PAK не откатывает состояние мира; сохранение — отдельная резервная копия. Рабочий принятый контрольный танкR66 сохранён отдельно и не перезаписан.
+
+
+</details>
